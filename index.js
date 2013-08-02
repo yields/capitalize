@@ -7,11 +7,22 @@
  *        capitalize('foo');
  *        // > Foo
  *
- * @param {String} foo
+ * @param {String} str
  * @return {String}
  */
 
-module.exports = function (str) {
+exports = module.exports = function (str) {
   return str.charAt(0).toUpperCase()
     + str.slice(1);
+};
+
+/**
+ * Capitalize words.
+ *
+ * @param {String} str
+ * @return {String}
+ */
+
+exports.words = function(str){
+  return str.replace(/\w+/g, exports);
 };
