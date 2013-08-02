@@ -2,7 +2,7 @@
   "name": "capitalize",
   "repo": "yields/capitalize",
   "description": "if i only had a nickel for every time i wrote this...",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "keywords": ["capitalize", "words"],
   "scripts": ["index.js"],
   "development": {
